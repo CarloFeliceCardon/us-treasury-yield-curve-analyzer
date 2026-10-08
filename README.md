@@ -11,6 +11,22 @@ Python project that downloads U.S. Treasury constant-maturity yield data, analys
 - Calculates the 2s5s10s curvature
 - Saves charts as PNG files in the `output` folder
 
+## Example outputs
+
+### Latest U.S. Treasury yield curve
+
+![Latest U.S. Treasury yield curve](output/current_yield_curve.png)
+
+### Historical 2s10s slope
+
+The red shaded areas indicate periods in which the 10-year Treasury yield was below the 2-year yield.
+
+![Historical U.S. Treasury 2s10s slope](output/slope_2s10s_history.png)
+
+### Historical 2s5s10s curvature
+
+![Historical U.S. Treasury 2s5s10s curvature](output/curvature_2s5s10s_history.png)
+
 ## Data source
 
 FRED daily Treasury constant-maturity yield series:
