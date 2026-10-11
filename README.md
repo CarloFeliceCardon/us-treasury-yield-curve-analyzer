@@ -49,7 +49,9 @@ FRED daily Treasury constant-maturity yield series:
 
 ## Run
 
-Activate the project environment:
+1. Create a virtual environment: `python3 -m venv .venv`
+2. Activate it: `source .venv/bin/activate`
+3. Install the dependencies: `pip install -r requirements.txt`
+4. Run the analysis: `python main.py`
 
-```bash
-source .venv/bin/activate
+The script prints the latest slope and curvature values and saves the charts to the `output` folder. No API key is required.
